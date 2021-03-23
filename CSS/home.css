@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.chatBox{
+    float: right;
+    position: sticky;
+    top: 90vh;
+    margin-top: 150px;
+}
+
+/* Global Utility Bar */
+.header-wrapper{
+    padding-top: 2%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-bottom: 7.5%;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    width: 50%;
+}
+
+.top-tab{
+    float: right;  
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 4%;
+}
+
+.global{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #535353;
+}
+
+.global a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* Navigation Bar */
+
+.navbarContainer{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.navbar-main{
+    width: 82vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.navbar-main{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a, .dropdownbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 2px;
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+li a:hover, .dropdown:hover .dropdownbtn {
+    color: #00689D;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 24px 24px !important;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #00689D;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active{
+    border-top: #00689D solid 4px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #00689D;
+}
+
+/* Hero Space */
+.banner{
+    width: 100vw;
+    height: auto;
+}
+
+.in_site_links{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #185D8B;
+    text-align: right;
+    padding-right: 2vw;
+    padding-bottom: 30px;
+}
+
+.link1{
+    padding-top: 30px;
+    margin-right: 5%;
+}
+
+.in_site_links a{
+    color: #185D8B;
+}
+
+.in_site_links a:hover{
+    color: #007FA0;
+}
+
+/* Today's Statistics Section */
+.todayStat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-left: 2vw;
+    padding-bottom: 1.5%;
+}
+
+table{
+    width: 100%;
+}
+#table_holder{
+    width: 45vw;
+}
