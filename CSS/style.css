@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.chatBox{
+    float: right;
+    position: sticky;
+    top: 90vh;
+    margin-top: 150px;
+}
+
 /* Global Utility Bar */
 .header-wrapper{
     padding-top: 2%;
@@ -63,15 +70,6 @@ ul.navbar-main{
     overflow: hidden;
 }
 
-/* .topNav {
-    float: left;
-    height: 5%;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    font-weight: 400;
-} */
-
 li a, .dropdownbtn {
     display: inline-block;
     color: black;
@@ -88,10 +86,6 @@ li a, .dropdownbtn {
 li a:hover, .dropdown:hover .dropdownbtn {
     color: #00689D;
 }
-
-/* li.dropdown {
-    display: inline-block;
-} */
 
 .dropdown-content {
     display: none;
@@ -157,6 +151,12 @@ li a:hover, .dropdown:hover .dropdownbtn {
     cursor: pointer;
 }
 
+.onBanner:hover{
+    background-color: white;
+    color: #007FA0;
+    border: 2px solid #007FA0;
+}
+
 .lastUpdated{
     font-family: Open Sans;
     font-style: italic;
@@ -186,6 +186,10 @@ ul.breadcrumb li {
   ul.breadcrumb li a{
     color: #185D8B;
     font-weight: bold;
+  }
+
+  ul.breadcrumb li a:hover{
+    color: #007FA0;  
   }
 
 /* Latest Update Section */
@@ -335,6 +339,13 @@ h2{
     border: none;
 }
 
+.darkBlue:hover{
+    background: #007FA0;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
 .next{
     margin-top: 7%;
 }
@@ -451,6 +462,19 @@ h2{
     border: none;
     margin-top: 18.5%;
     margin-bottom: 7%;
+    cursor: pointer;
+}
+
+.lightButton:hover{
+    background-color: white;
+    color: #007FA0;
+    border: 2px solid #007FA0;
+}
+
+.bottomAligned:hover{
+    background-color: white;
+    color: #007FA0;
+    border: 2px solid #007FA0;
 }
 
 .bottomAligned{
@@ -467,6 +491,7 @@ h2{
     border: none;
     margin-top: 10%;
     margin-bottom: 7%;
+    cursor: pointer;
 }
 
 /* Know More About the Process of Getting Vaccinated */
@@ -529,6 +554,12 @@ line-height: 32px;
 color: #185D8B;
 position: absolute;
 top: 70%;
+cursor: pointer;
+}
+
+.vacProcess h4:hover{
+    color: #007FA0;
+    text-decoration: underline;
 }
 
 /* Common Concerns Section */
@@ -554,6 +585,7 @@ top: 70%;
 
 .massVacVideo img{
     width: 95%;
+    cursor: pointer;
 }
 
 .concernContainer{
@@ -576,6 +608,12 @@ top: 70%;
     align-items: center;
     justify-content: space-between;
     padding-right: 2vw;
+    cursor: pointer;
+}
+
+.Q:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 .Q p{
@@ -588,6 +626,7 @@ top: 70%;
     padding-left: 2vw;
     padding-right: 2vw;
 }
+
 
 .link2{
     margin-right: 9%;
@@ -658,6 +697,13 @@ top: 70%;
     margin-left: 10%;
     margin-right: 4%;
     cursor: pointer;
+}
+
+.alertButton:hover{
+    background: #007FA0;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
 }
 
 .link3{
@@ -735,6 +781,7 @@ top: 70%;
 
 .subBar{
     display: flex;
+    margin-top: 4%;
 }
 
 .subButton{
@@ -749,6 +796,11 @@ top: 70%;
     border: none;
     margin-left: 2.5%;
     border-radius: 2.5px;
+}
+
+.subButton:hover{
+    color: #007FA0;
+    border: 2px solid #007FA0;
 }
 
 /* Dark Footer Section */
