@@ -14,8 +14,8 @@
 /* Global Utility Bar */
 .header-wrapper{
     padding-top: 2%;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 7.25%;
+    padding-right: 6%;
     margin-bottom: 7.5%;
 }
 
@@ -303,36 +303,9 @@ h2{
 }
 
 /* Ouick Links */
-
-/* .card{
-    display: inline-block;
-    background-color: #185D8B !important;
-    margin-right: 2vw;
-    text-align: center;
-    overflow: hidden;
-}
-.card-deck{
-    width: 90vw;
-    padding-left: 5vw;
-    justify-content: space-between;
-    align-content: space-between;
-    padding-top: 20px;
-}
-.card-deck-2{
-    padding-left: 10vw !important;
-}
-.card a{
-    color: #DEF0F1;
-    text-decoration: none;
-    font-weight: bold;
-}
-.card:hover{
-    box-shadow: 0 9px 0 0 white, 0 -9px 0 0 white, 12px 0 5px -4px lightgrey, -12px 0 5px -4px lightgrey;
-} */
-
 .quickLinks{
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
     margin-left: 5.25%;
     margin-right: 6.25%;
 }
@@ -354,27 +327,8 @@ h2{
     background: #185D8B;
     border-radius: 7.5px;
     text-align: center;
-    /* align-items: center; */
-    /* width: 50%; */
+    width: 30%
 }
-
-/* .Q{
-    background: #185D8B;
-    border-radius: 7.5px;
-    margin-bottom: 4%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 2vw;
-    cursor: pointer;
-}
-
-.Q:hover{
-    color: white;
-    text-decoration: underline;
-} */
 
 .QL h3{
     font-family: Open Sans;
@@ -383,6 +337,24 @@ h2{
     font-size: 24px;
     line-height: 40px;
     color: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.subCard{
+    border: 2px solid #DEF0F1;
+    border-radius: 7.5px;
+    margin-bottom: 7.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.subCard:hover{
+    color: #FFFFFF;
+    background: #007FA0;
 }
 
 .QL p{
@@ -392,14 +364,12 @@ h2{
     font-size: 17px;
     line-height: 30px;
     color: #F2EEEE;
-    /* padding-left: 2vw;
-    padding-right: 2vw; */
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.subCard{
-    border: 2px solid #DEF0F1;
-    border-radius: 7.5px;
-    margin-bottom: 5%;
+.Q{
+    padding-bottom: 4%;
 }
 
 
@@ -408,11 +378,21 @@ h2{
 .briefing{
     display: flex;
     flex-direction: column;
-    padding-top: 7%;
+    padding-top: 4%;
     margin-left: 5.25%;
     margin-right: 6.5%;
 }
 
+.briefing h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-left: 2vw;
+    padding-bottom: 5%;
+}
 .briefingContainer{
     display: flex;
     justify-content: space-between;
@@ -472,10 +452,15 @@ h2{
     opacity: 50%;
 }
 
+.link3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -2.25%;
+}
 
 /* Stop the Spread Section  */
 .stopTheSpread{
-    padding-top: 7%;
+    padding-top: 4%;
     margin-left: 5.25%;
     margin-right: 6.25%;
     margin-bottom: 7%;
@@ -483,7 +468,7 @@ h2{
 
 .stop img{
     display: block;
-    margin-top: 2.5%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
