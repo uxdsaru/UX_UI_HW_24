@@ -49,6 +49,11 @@
     text-decoration: none;
 }
 
+.searchBox{
+    background-image: url(../Images/magnifying\ glass.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 
 /* Navigation Bar */
 
