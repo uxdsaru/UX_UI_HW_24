@@ -22,7 +22,7 @@
 .logo {
     float: left;
     display: flex;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .top-tab{
@@ -33,6 +33,7 @@
     width: 50%;
     padding-top: 30px;
     padding-bottom: 4%;
+    margin: 0.5%;
 }
 
 .global{
@@ -53,8 +54,8 @@
 /* Navigation Bar */
 
 .navbarContainer{
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 7.25%;
+    margin-right: 6%;
 }
 
 .navbar-main{

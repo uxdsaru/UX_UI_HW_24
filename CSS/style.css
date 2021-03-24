@@ -49,11 +49,30 @@
     text-decoration: none;
 }
 
-.searchBox{
-    background-image: url(../Images/magnifying\ glass.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-}
+/* Search Box */
+
+/* Style the search field */
+/* form.example input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-right: none;
+    float: left;
+    width: 80%;
+  } */
+  
+  /* Style the submit button */
+  /* form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: grey;
+    background: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  } */
 
 /* Navigation Bar */
 
