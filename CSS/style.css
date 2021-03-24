@@ -263,6 +263,7 @@ h2{
     padding-left: 2vw;
     padding-bottom: 1.5%;
 }
+
 .row1{
     background: #185D8B;
     border-radius: 7.5px 7.5px 0px 0px;
@@ -613,7 +614,7 @@ cursor: pointer;
 
 .Q:hover{
     color: white;
-    text-decoration: underline;
+    background: #007FA0;;
 }
 
 .Q p{
